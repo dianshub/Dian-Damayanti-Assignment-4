@@ -7,7 +7,7 @@ export default function Homepage() {
     <main>
       <header className="relative w-full h-screen">
         <Image
-          src="/images/header-app.png"
+          src="/images/open-header.png"
           alt="Header Image"
           fill
           priority
