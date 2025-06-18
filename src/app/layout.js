@@ -1,4 +1,4 @@
-import { parkinsans } from "@/lib/fonts";
+import { fredoka } from "@/lib/fonts";
 import "./globals.css";
 import { HeroUIProvider } from "@heroui/react";
 
@@ -9,8 +9,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`h-full ${parkinsans.className}`}>
-      <body className="h-full bg-purple-200">
+    <html lang="en" className={`h-full ${fredoka.className}`}>
+      <body className="h-full bg-purple-200 text-lg">
         <HeroUIProvider>{children}</HeroUIProvider>
       </body>
     </html>

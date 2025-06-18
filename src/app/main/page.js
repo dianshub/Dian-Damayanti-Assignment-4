@@ -36,7 +36,7 @@ export default async function Mainpage() {
               className="border-10 border-purple-300 p-4 rounded-lg bg-yellow-50 w-[750px] font-amaranth"
             >
               <div className="flex justify-between items-center mb-4">
-                <p className="text-sm text-purple-400">
+                <p className="font-bold text-sm text-purple-400">
                   {moment(userReview.createdAat).format("MMM Do, YYYY")}
                 </p>
 

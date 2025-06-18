@@ -15,7 +15,7 @@ export default function Login() {
       <div className="max-w-3xl m-auto my-12 space-y-12 pb-10 ">
         <section className="flex flex-col items-center gap-4 p-6 border-10 border-red-300 rounded-lg bg-yellow-50">
           <h2
-            className={`flex justify-center font-bold text-red-400 my-4 text-2xl ${caprasimo.className}`}
+            className={`flex justify-center font-bold text-red-400 my-4 text-xl ${caprasimo.className}`}
           >
             What's your name?
           </h2>
@@ -29,7 +29,7 @@ export default function Login() {
               variants="flat"
               isClearable
               isRequired
-              className="max-w-sm w-full"
+              className="max-w-sm w-full h-5"
             />
             <Button
               isLoading={pending}

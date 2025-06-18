@@ -1,11 +1,11 @@
-import { Caprasimo, Parkinsans } from "next/font/google";
+import { Caprasimo, Fredoka } from "next/font/google";
 
 export const caprasimo = Caprasimo({
   subsets: ["latin"],
   weight: "400",
 });
 
-export const parkinsans = Parkinsans({
+export const fredoka = Fredoka({
   subsets: ["latin"],
   weight: "400",
 });
