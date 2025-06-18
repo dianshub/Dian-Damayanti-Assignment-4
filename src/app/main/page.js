@@ -16,7 +16,7 @@ export default async function Mainpage() {
   return (
     <main className="min-h-screen bg-purple-200 pb-10">
       <div className="max-w-3xl m-auto my-4 space-y-8 ">
-        <div className="flex justify-end gap-4">
+        <div className="flex justify-end gap-4 mt-10">
           <Link href="/main/addForm">
             <Button className="bg-pink-400 font-bold text-white hover:bg-pink-500">
               + Add Review

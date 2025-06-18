@@ -1,21 +1,28 @@
 "use client";
 
-import { Button, Input } from "@heroui/react";
+import { Button, Card, Input } from "@heroui/react";
 import { caprasimo } from "@/lib/fonts";
 import { loginAction } from "./action";
 import { useActionState } from "react";
+import Image from "next/image";
 
 export default function Login() {
   const [_, action, pending] = useActionState(loginAction, null);
   return (
     <main className="h-full bg-purple-200">
-      <header>
-        <img src="/images/main-head.png" />
+      <header className="relative w-full h-[300px]">
+        <Image
+          src="/images/main-head.png"
+          alt="Header"
+          fill
+          priority
+          className="object-cover"
+        />
       </header>
       <div className="max-w-3xl m-auto my-12 space-y-12 pb-10 ">
-        <section className="flex flex-col items-center gap-4 p-6 border-10 border-red-300 rounded-lg bg-yellow-50">
+        <Card className="flex flex-col items-center gap-4 p-6 border-10 border-red-300 rounded-lg bg-yellow-50">
           <h2
-            className={`flex justify-center font-bold text-red-400 my-4 text-xl ${caprasimo.className}`}
+            className={`flex justify-center font-bold text-red-400 my-4 underline text-xl ${caprasimo.className}`}
           >
             What's your name?
           </h2>
@@ -39,7 +46,7 @@ export default function Login() {
               Login
             </Button>
           </form>
-        </section>
+        </Card>
       </div>
     </main>
   );
