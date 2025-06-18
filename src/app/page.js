@@ -18,7 +18,7 @@ export default function Homepage() {
             href="/login"
             className={`${caprasimo.className} relative inline-block px-6 py-3 font-bold text-white rounded-lg bg-gradient-to-r from-red-400 to-pink-500 bg-[length:200%_100%] bg-left hover:bg-right transition-[background-position] duration-300`}
           >
-            Let's Start!
+            Let&#39;s Start!{" "}
           </Link>
         </div>
       </header>

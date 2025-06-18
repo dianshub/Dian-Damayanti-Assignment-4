@@ -24,7 +24,7 @@ export default function Login() {
           <h2
             className={`flex justify-center font-bold text-red-400 my-4 underline text-xl ${caprasimo.className}`}
           >
-            What's your name?
+            What&#39;s your name?
           </h2>
           <form
             action={action}
